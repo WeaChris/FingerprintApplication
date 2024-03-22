@@ -58,3 +58,4 @@ C:\Users\aekfc\source\repos\FingerprintApplication\obj\Debug\net8.0-windows\refi
 C:\Users\aekfc\source\repos\FingerprintApplication\obj\Debug\net8.0-windows\FingerprintApplication.pdb
 C:\Users\aekfc\source\repos\FingerprintApplication\obj\Debug\net8.0-windows\FingerprintApplication.genruntimeconfig.cache
 C:\Users\aekfc\source\repos\FingerprintApplication\obj\Debug\net8.0-windows\ref\FingerprintApplication.dll
+C:\Users\aekfc\source\repos\FingerprintApplication\obj\Debug\net8.0-windows\FingerprintApplication.sourcelink.json

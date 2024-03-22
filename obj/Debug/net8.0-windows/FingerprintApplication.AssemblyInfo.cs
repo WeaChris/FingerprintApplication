@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FingerprintApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54ddff7f08506514e29d072a410857569c888977")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+749cc93edb0b725a3a01a08840f7a49386d72bbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("FingerprintApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FingerprintApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

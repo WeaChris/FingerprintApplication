@@ -47,6 +47,8 @@
             label6 = new Label();
             button3 = new Button();
             label7 = new Label();
+            label8 = new Label();
+            usersDataPrint = new Button();
             ((System.ComponentModel.ISupportInitialize)reportTableforUsers2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)reportTableforUsers1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -225,12 +227,35 @@
             label7.TabIndex = 19;
             label7.Text = "|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|";
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = SystemColors.Control;
+            label8.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold);
+            label8.Location = new Point(1153, 429);
+            label8.Name = "label8";
+            label8.Size = new Size(348, 25);
+            label8.TabIndex = 20;
+            label8.Text = "------------------------------------------";
+            // 
+            // usersDataPrint
+            // 
+            usersDataPrint.Location = new Point(1234, 487);
+            usersDataPrint.Name = "usersDataPrint";
+            usersDataPrint.Size = new Size(147, 43);
+            usersDataPrint.TabIndex = 21;
+            usersDataPrint.Text = "Στοιχεία παρουσιαζομένων";
+            usersDataPrint.UseVisualStyleBackColor = true;
+            usersDataPrint.Click += usersDataPrint_Click;
+            // 
             // reportForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             ClientSize = new Size(1480, 698);
+            Controls.Add(usersDataPrint);
+            Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(button3);
             Controls.Add(label6);
@@ -280,5 +305,7 @@
         private Label label6;
         private Button button3;
         private Label label7;
+        private Label label8;
+        private Button usersDataPrint;
     }
 }
